@@ -1,0 +1,21 @@
+Installation Steps:
+
+1.  Run:
+        - pip install wikipedia
+        
+4.  In raspberry pi home directory run
+        - git clone https://github.com/JasonTwente/Jasper-Wikipedia
+
+5.  Copy the Wikipedia.py from Jasper-Wikipedia to jasper/client/modules
+
+6.  add to __init__.py
+        from modules import Wikipedia
+        
+7. The installation is complete! 
+
+Example:
+JASPER:  How can I be of service?
+YOU:     Give me some information // Give me some info // Tell me something
+JASPER:  What do you want to know?
+YOU:     Robbie Williams
+JASPER:  Robert Peter "Robbie" Williams (born 13 February 1974) is an English singer-songwriter, and occasional actor.
