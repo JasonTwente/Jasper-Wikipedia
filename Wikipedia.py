@@ -6,6 +6,8 @@ import wikipedia
 
 WORDS = ["INFO", "INFORMATION", "TELL", "ME"]
 
+# Written by Jason van Eunen - jasonvaneunen.com
+
 def handle(text, mic, profile):
 
 mic.say("What do you want to know?")
